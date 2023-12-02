@@ -1,0 +1,136 @@
+@import url("https://fonts.googleapis.com/css2?family=Hedvig+Letters+Sans&display=swap");
+
+body {
+  font-family: "Hedvig Letters Sans", sans-serif;
+  margin: 0;
+  padding: 0;
+    color: #43302b;
+  background-color: #fdfcfc;
+}
+
+header {
+  background-color: #f6edea;
+  color: #43302b;
+  text-align: center;
+  padding: 0.5em 0;
+  border: 3px solid #e9d8d3;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+
+main {
+  margin: 0 auto;
+  max-width: 1000px;
+}
+.Titre {
+  font-size: 1.5em;
+  font-weight: bold;
+  color: #43302b;
+  text-align: center;
+}
+
+#top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.top-1 {
+  width: 45%;
+}
+.top-1 img {
+  border-radius: 20px;
+}
+.top-2 {
+  width: 45%;
+}
+#middle {
+  display: flex;
+    flex-direction: row-reverse;
+  justify-content: space-between;
+  align-items: center;
+}
+.middle-1 {
+  width: 45%;
+}
+.middle-1 img {
+  border-radius: 20px;
+}
+.middle-2 {
+  width: 45%;
+}
+#bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.bottom-1 {
+  width: 45%;
+}
+.bottom-1 img {
+  border-radius: 20px;
+}
+.bottom-2 {
+  width: 45%;
+}
+section {
+  margin-bottom: 20px;
+}
+
+h2 {
+  color: #333;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.restaurant {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.restaurant div{
+    width: 45%;
+}
+.restaurant div img{
+    border-radius: 20px;
+}
+.hotel {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.hotel div {
+    width: 45%;
+}
+
+.hotel div img {
+    border-radius: 20px;
+}
+
+.endroits {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.endroits div {
+    width: 45%;
+}
+
+.endroits div img {
+    border-radius: 20px;
+}
+
+
+footer {
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+  text-align: center;
+  padding: 1em 0;
+  background-color: #f6edea;
+  color: #43302b;
+}
